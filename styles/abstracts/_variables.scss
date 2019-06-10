@@ -1,39 +1,43 @@
+// Font
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap');
+
 // Colours
-$theme-colour:  rgb(136,176,75);
-$black:         rgb(0,0,0);
-$white:         rgb(255,255,255);
-$gray:          rgb(128,128,128);
-$silver:        rgb(192,192,192);
-$transparent:   rgba(255, 255, 255, 0);
-$text-colour:   rgb(88, 87, 92);
+$theme-colour: rgb(136, 176, 75);
+$black: rgb(0, 0, 0);
+$ocean: rgb(80, 216, 238);
+$gray: rgb(128, 128, 128);
+$silver: rgb(192, 192, 192);
+$text-colour: rgb(88, 87, 92);
+$transparent: transparent;
+$white: rgb(255, 255, 255);
 
 $primary-colour: $theme-colour;
 $secondary-colour: $white;
 
 // Typography
 $font-family: 'Roboto', sans-serif;
+$font-family-rubik: 'Rubik', sans-serif;
 
-$font-size-base:  1.6rem;
+$font-size-base: 1.6rem;
 
 // Add any font sizes the site used
 
-$font-size-large:  2rem;   // ~20px
-$font-size-small:  1.2rem; // ~12px
+$font-size-large: 2rem; // ~20px
+$font-size-small: 1.2rem; // ~12px
 
 $font-size-menu: $font-size-base;
-$font-size-menu-s: $font-size-base * 0.80;
+$font-size-menu-s: $font-size-base * 0.8;
 
 // Typography
 $line-height-base: 1.2em;
 
 // Layout
-$container-width: 128.0rem; // ~1280px
+$container-width: 128rem; // ~1280px
 $container-width-s: 600rem;
 $section-vertical-space: 4rem;
 $gutter: 2rem;
 $gutter-s: 1rem;
 $border-radious: 20px;
-
 
 $breakpoints: (
   small: 767px,
@@ -45,13 +49,14 @@ $breakpoints: (
 $logo-size-vertical: 30rem;
 $logo-size-horizontal: 100rem;
 
-
 // Buttons
-$btn-border-radious: $border-radious; 
+$btn-border-radious: $border-radious;
 $btn-font-weight: 400;
 $btn-font-size: $font-size-base;
-$btn-width: 20rem;
-$btn-color: $white;
+$btn-width: 13rem;
+$btn-color-secondary: $white;
+$btn-color-primary: $ocean;
+$btn-color-default: $transparent;
 // Forms
 
 // Footer

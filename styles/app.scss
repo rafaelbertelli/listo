@@ -3,18 +3,17 @@
 
 @import 'abstracts/variables';
 
-@import "vendors/include-media";
-@import "vendors/retina";
-@import "vendors/reset";
+@import 'vendors/include-media';
+@import 'vendors/retina';
+@import 'vendors/reset';
 
-@import "base/base";
-@import "base/typography";
+@import 'base/base';
+@import 'base/typography';
 
-@import "layout/grid";
-@import "layout/header";
-@import "layout/footer";
+// @import "layout/grid";
+// @import "layout/header";
+// @import "layout/footer";
 
-
-@import "components/buttons";
+@import 'components/buttons';
 
 @import 'pages/home';

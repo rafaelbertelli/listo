@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm run lint && webpack --config webpack.config.js -p",
     "dev": "npm run lint && webpack-dev-server --config webpack.dev.config.js --inline",
-    "lint": "./node_modules/.bin/eslint js"
+    "lint": "./node_modules/.bin/eslint html"
   },
   "author": "Fransy",
   "license": "ISC",
@@ -17,6 +17,7 @@
     "babel-preset-env": "^1.7.0",
     "css-loader": "^0.28.11",
     "eslint": "^3.19.0",
+    "eslint-plugin-babel": "^5.3.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
     "node-sass": "^4.9.0",
@@ -27,5 +28,8 @@
     "url-loader": "^0.5.7",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "eslint-plugin-html": "^5.0.5"
   }
 }
