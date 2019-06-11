@@ -1,0 +1,74 @@
+.concepts {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.contexts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 45px;
+
+  .title {
+    color: $purple;
+    font-family: $font-family-rubik;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 80px;
+    text-transform: capitalize;
+  }
+
+  .subtitle {
+    color: $almost-black;
+    font-family: $font-family;
+    font-size: 67px;
+    font-weight: 600;
+  }
+
+  .description {
+    color: $almost-black;
+    font-family: $font-family;
+    font-size: 22px;
+    line-height: 31px;
+    text-align: center;
+    max-width: 75%;
+    margin-top: 20px;
+  }
+}
+
+.badges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 310px;
+  }
+
+  .title {
+    color: $almost-black-darken;
+    font-family: $font-family-rubik;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 89px;
+  }
+
+  .description {
+    color: $almost-black;
+    font-family: $font-family;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    max-width: 75%;
+    margin-top: 20px;
+  }
+
+  .img:hover {
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.3));
+  }
+}
