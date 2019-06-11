@@ -1,0 +1,59 @@
+.digitalization {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  .container {
+    height: auto;
+  }
+
+  .boxcard-region {
+    background-image: url('~/images/bg-jornada-min.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+  }
+
+  .boxcard-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 70px;
+  }
+
+  .boxcard {
+    align-items: center;
+    background-color: $white;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex: 1 1 25%;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-around;
+    margin: 0 10px 20px;
+    max-height: 250px;
+    max-width: 220px;
+    padding: 0 15px;
+    transition: all 0.5s;
+    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    width: 185px;
+
+    &:nth-child(4n):before {
+      background-color: red;
+    }
+
+    &:hover {
+      box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.1);
+      transform: translateY(-15px);
+    }
+  }
+
+  .description {
+    text-align: center;
+    line-break: normal;
+    text-transform: capitalize;
+  }
+}
